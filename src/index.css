@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  --color-viet-red: #D32F2F;
+  --color-viet-yellow: #FFC107;
+  --color-viet-wood: #5D4037;
+  --color-viet-cream: #FFF9C4;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: #fafaf9; /* stone-50 */
+    color: #1c1917; /* stone-900 */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+.glass-nav {
+  @apply bg-white/80 backdrop-blur-md border-b border-stone-200;
+}
+
+.menu-card {
+  @apply bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300 border border-stone-100;
+}
+
+.btn-primary {
+  @apply bg-viet-red text-white px-8 py-3 rounded-full font-semibold hover:bg-red-700 transition-colors duration-200 shadow-lg shadow-red-900/20;
+}
+
+.btn-secondary {
+  @apply bg-viet-yellow text-viet-wood px-8 py-3 rounded-full font-semibold hover:bg-amber-500 transition-colors duration-200 shadow-lg shadow-amber-900/10;
+}

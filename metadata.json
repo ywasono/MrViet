@@ -1,0 +1,5 @@
+{
+  "name": "Mr Viet - Authentic Vietnamese Street Food",
+  "description": "Modern, mobile-friendly website for Mr Viet, an authentic Vietnamese street food restaurant in Adelaide, Australia.",
+  "requestFramePermissions": ["geolocation"]
+}
