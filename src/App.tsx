@@ -201,7 +201,7 @@ export default function App() {
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://hiddenhoian.com/wp-content/uploads/2018/11/vietnamese-food-overview.jpg?auto=format&fit=crop&q=80&w=1920"
+            src="https://images.unsplash.com/photo-1526318896980-cf78c088247c?auto=format&fit=crop&q=80&w=1920"
             alt="Vietnamese Street Food"
             className="w-full h-full object-cover scale-105"
             referrerPolicy="no-referrer"
